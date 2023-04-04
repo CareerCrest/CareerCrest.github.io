@@ -7701,7 +7701,6 @@ a.et_pb_more_button:after {
   font-size: 32px;
   line-height: 1em;
   /* arrow content */
-  content: " ►";
   opacity: 0;
   position: absolute;
   margin-left: -1em;
@@ -14979,10 +14978,10 @@ button.et_pb_menu__icon__with_count:after {
   right: -22px;
 }
 .et-pb-arrow-prev:before {
-  content: "4";
+  content: "<";
 }
 .et-pb-arrow-next:before {
-  content: "5";
+  content: ">";
 }
 .format-gallery .et-pb-arrow-next,
 .format-gallery .et-pb-arrow-prev {
